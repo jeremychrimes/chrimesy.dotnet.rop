@@ -8,8 +8,8 @@ public class RopResult<TSuccess, TFailure>
     {
     }
 
-    public TSuccess? Success { get; private init; }
-    public TFailure? Failure { get; private init; }
+    public TSuccess Success { get; private init; }
+    public TFailure Failure { get; private init; }
 
     public bool IsSuccess()
     {
